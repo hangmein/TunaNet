@@ -1,0 +1,26 @@
+# Thư viện cho đề tài phân loại chất lượng thịt cá ngừ (TunaNet)
+# LƯU Ý: PyTorch (torch, torchvision) cài RIÊNG theo lệnh trên pytorch.org
+# để chọn đúng bản CUDA/CPU cho máy — không cài qua file này.
+
+# Tính toán & dữ liệu
+numpy
+pandas
+scikit-learn
+
+# Xử lý ảnh
+opencv-python
+pillow
+albumentations
+
+# Trực quan hóa & theo dõi huấn luyện
+matplotlib
+tensorboard
+tqdm
+
+# Hỗ trợ xây dựng mô hình tự thiết kế
+torchinfo        # in cấu trúc mạng, đếm số tham số
+grad-cam         # Grad-CAM: xem mô hình "nhìn" vào vùng nào
+
+# Làm việc tương tác
+jupyterlab
+ipykernel
