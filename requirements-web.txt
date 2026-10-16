@@ -1,0 +1,6 @@
+# PyTorch must already be installed (see README.md).
+Flask>=3.1,<4
+waitress>=3.0,<4
+numpy
+opencv-python
+Pillow
