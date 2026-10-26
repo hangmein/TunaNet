@@ -1,5 +1,6 @@
 """
 Phân tích thời gian chụp của bộ dữ liệu (tên ảnh dạng IMG20220516121300).
+
 Mục đích: hiểu ảnh được chụp theo buổi như thế nào, để chọn cách chia dữ liệu hợp lý.
 
 Chạy từ thư mục TunaNet:   python scripts/analyze_times.py
