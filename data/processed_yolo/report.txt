@@ -1,0 +1,11 @@
+Đã xử lý 1483 ảnh -> D:\StudyUni\AI\TunaNet\data\processed_yolo
+Mask từ YOLO: 1483   |   phải dùng ngưỡng màu dự phòng: 0   |   bỏ qua: 1
+Lề cân bằng trắng: 15%   |   lề cắt đưa vào TunaNet: 5%
+
+Độ khớp mask với NHÃN THẬT (IoU trung bình, 1.0 = khớp hoàn toàn):
+   tập       số ảnh   YOLO-seg   Ngưỡng màu
+   train        699      0.952        0.669     (IoU < 0.8: YOLO 0 ảnh, ngưỡng màu 246 ảnh)
+   val          121      0.939        0.682     (IoU < 0.8: YOLO 0 ảnh, ngưỡng màu 37 ảnh)
+   test         663      0.936        0.655     (IoU < 0.8: YOLO 10 ảnh, ngưỡng màu 240 ảnh)
+
+Ảnh kiểm tra: D:\StudyUni\AI\TunaNet\outputs\figures\processed_yolo_check.jpg

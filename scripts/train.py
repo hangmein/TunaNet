@@ -144,7 +144,7 @@ def main():
         va_acc, va_f1 = accuracy_score(yv, pv), f1_score(yv, pv, average="macro")
         history.append({"epoch": ep, "train_loss": tot_loss / n, "val_acc": va_acc, "val_f1": va_f1})
         flag = ""
-        if va_f1 > best_f1:
+        if va_f1 >= best_f1:
             best_f1, best_ep, flag = va_f1, ep, "  *lưu"
             torch.save({"model": model.state_dict(), "classes": classes, "args": vars(args)}, out / "best.pt")
         print(f"Epoch {ep:>3}/{args.epochs}  loss={tot_loss / n:.4f}  val_acc={va_acc:.3f}  "

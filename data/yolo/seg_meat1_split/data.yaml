@@ -1,0 +1,6 @@
+path: D:\StudyUni\AI\TunaNet\data\yolo\seg_meat1_split
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: meat
